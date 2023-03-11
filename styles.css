@@ -1,0 +1,56 @@
+html {
+  font-family: 'Roboto';
+}
+
+body, heading {
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+heading {
+  padding-top: 100px;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+.call-to-action {
+  padding-top: 100px;
+}
+
+input {
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+button {    
+  padding: 10px 20px;
+  background-color: #95BDFF;
+  border: 1px solid #95BDFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #B4E4FF;
+}
+
+footer {
+  padding-top:100px;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
+}
